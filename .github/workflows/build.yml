@@ -1,11 +1,10 @@
 name: Build
 on: [push, pull_request]
-  jobs:
-  
-  
-    build:
-      name: Build
-      runs-on: ubuntu-latest
-      steps:
-      - run: echo "Hi Maël, je suis l'ia de Google ton ami !! "
+jobs:
+    
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hi Maël, je suis l'ia de Google ton ami !! "
       
