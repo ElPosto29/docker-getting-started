@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hi Maël, je suis l'ia de Google ton ami !! "
-      
+    - run: ls
+    - uses: actions/checkout@v2
+    - run: ls
